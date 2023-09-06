@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat</title>
+    <style>
+      .parent{
+        display: flex;
+        flex-direction: row;
+        box-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+        width: 500px;
+        padding-bottom: 15px;
+        padding-right: 10px;
+      }
+      .insideparent{
+        display: flex;
+        align-items: center;
+      }
+      .image{
+        border-radius: 100px;
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+      }
+      p{
+        font-family: arial;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="leftsection">
+        <div style="display: flex; align-items: start;">
+          <img class="image" src="intro-to-html/channels4_profile.jpg">
+        </div>
+      </div>
+      <div class="rightsection">
+        <p style="margin-bottom: 0px; margin-top: 7px;"><strong>supersimple.dev</strong><span style="color: grey;">@SuperSimpleDev</span></p>
+        <p style="width: 350px; margin-top: 8px;line-height: 21px;">What is backend web developement? A complete overview. New video is up</p>
+        <div style="border-width: 2px; border-style: solid; border-radius: 17px; border-color: rgb(224, 220, 220);">
+          <div class="insideparent"> 
+            <div style="background-color: grey; width: 100px;"></div>
+            <div style="width: 350px;">
+              <p style="margin-bottom: 0px; margin-left: 8px; color: rgb(195, 187, 187);">youtube.com</p>
+              <p style="line-height: 20px; margin-top: 6px; margin-left: 8px; width: 250px;">Backend web developement - a complete overview(2021)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

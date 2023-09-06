@@ -1,0 +1,45 @@
+.biggerbox{
+  display: grid;
+  column-gap: 19px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+}
+.secondmaindiv{
+  display: grid;
+  grid-template-columns: 60px 1fr;
+}
+.channelphoto{
+  border-radius: 100px;
+  width: 50px;
+  margin-top: 10px;
+}
+.thumbnail{
+  width: 100%;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: arial;
+}
+.p1{
+  margin-bottom: 12px;
+  margin-top: 15px;
+  font-weight: 700;
+}
+.p2{
+  margin-bottom: 2px;
+  color: grey;
+}
+.p3{
+  color: grey;
+}
+.videotime{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.maindiv{
+  position: relative;
+}

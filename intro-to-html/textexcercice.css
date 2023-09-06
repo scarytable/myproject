@@ -1,0 +1,73 @@
+button{
+  color: white;
+  background-color: blue;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  margin-left: 750px;
+}
+p{
+margin-top: 0px;
+margin-bottom: 0px;
+font-family: Arial;
+}
+.title1{
+color: orange;
+text-align: center;
+margin-bottom: 10px;
+text-align: center;
+font-weight: bold;
+}
+.title2{
+font-weight: bold;
+font-size: 17px;
+margin-bottom: 10px;
+text-align: center;
+}
+.title3{
+font-size: 27px;
+margin-bottom: 10px;
+text-align: center;
+}
+.title4{
+text-align: center;
+margin-bottom: 10px;
+}
+.secondexcercice2{
+color: green;
+margin-bottom: 5px;
+}
+.yeah{
+margin-bottom: 5px;
+}
+.span{
+color: red;
+}
+.secondex1{
+font-size: 21px;
+}
+.no{
+color: grey;
+}
+.newparagraphafterthis{
+margin-bottom: 30px;
+}
+.needgrey{
+color: grey;
+}
+.distance{
+margin-bottom: 10px;
+}
+.navigate{
+line-height: 18px;
+width: 600px;
+margin-bottom: 18px;
+
+}
+.needblue{
+color: blue;
+}
+.needblue:hover{
+text-decoration: underline;
+}

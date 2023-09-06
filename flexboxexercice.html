@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cats</title>
+    <style>
+      .parent{
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 100px;
+        justify-content: space-between;
+        margin-top: 0px;
+      }
+      button{
+        color: white;
+        background-color: #EA4C89;;
+        border: none;
+        border-radius: 4px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+      }
+      .leftsection{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        margin-left: 10px;
+        column-gap: 8px;
+      }
+      .image{
+        border-radius: 70px;
+        width: 85%;
+        height: 50%;
+        object-fit: cover;
+      }
+      p{
+        color: grey;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-family: arial;
+      }
+      strong{
+        font-family: arial;
+      }
+      button{
+        display: block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        cursor: pointer;
+        height: 40px;
+        width: 60px;
+      }
+      .rightsection{
+        margin-right: 10px;
+        margin-top: 15px;
+      }
+      .bod{
+        margin: 5px;
+      }
+      .grandparent{
+        box-shadow: 6px 6px 6px rgba(0,0,0,0.3);
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body class="bod">
+    <div class="grandparent">
+    <div class="parent">
+      <div class="leftsection">
+        <div>
+          <img style="margin-top: 8px;" class="image" src="intro-to-html/hqdefault.webp">
+        </div>
+          <div>
+            <strong style="margin-bottom: 0px;">Oliver</strong>
+            <p style="margin-top: 6px;">the cat</p>
+            <p style="margin-top: 6px;">Popular</p>
+          </div>
+        </div>
+      <div class="rightsection">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="leftsection">
+        <div>
+          <img class="image" src="intro-to-html/channels4_profile.jpg">
+        </div>
+          <div style="margin-left: 10px;">
+            <strong style="margin-bottom: 0px;">Mimi</strong>
+            <p style="margin-top: 6px;">sleepy cat</p>
+            <p style="margin-top: 6px;">Popular</p>
+          </div>
+        </div>
+      <div class="rightsection">
+        <button>Follow</button>
+      </div>
+    </div>
+
+    <div class="parent">
+      <div class="leftsection">
+        <div>
+          <img class="image" src="intro-to-html/hq720.webp">
+        </div>
+          <div>
+            <strong style="margin-bottom: 0px;">Rex</strong>
+            <p style="margin-top: 6px;">Happy bulldog</p>
+            <p style="margin-top: 6px;">Popular</p>
+          </div>
+        </div>
+      <div class="rightsection">
+        <button>Follow</button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

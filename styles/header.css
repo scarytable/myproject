@@ -1,0 +1,91 @@
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: white;
+  z-index: 10;
+}
+.leftsection{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightsection{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+.middlesection{
+  flex: 1;
+  margin-right: 30px;
+  margin-left: 70px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu{
+  height: 24px;
+  margin-left: 24px;
+}
+.youtube-logo{
+  height: 45px;
+  margin-left: 24px;
+}
+.buttmic{
+  height: 44px;
+  width: 45px;
+}
+.input{
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgb(192,192,192);
+  border-style: solid;
+  padding-left: 10px;
+  flex: 1;
+  width: 0;
+  box-shadow: inset 1px 1px 3px rgba(0,0,0,0.1);
+  height: 40px
+}
+.input::placeholder{
+  font-family: arial;
+  font-size: 16px;
+}
+.buttmic{
+  cursor: pointer;
+  border: none;
+  margin-left: 6px;
+  border-radius: 50px;
+  background-color: rgb(245,245,245);
+}
+.microphone{
+  padding-top: 3px;
+}
+.buttsearch{
+  height: 44px;
+  width: 80px;
+  cursor: pointer;
+  border: solid;
+  border-color: rgb(192,192,192);
+  border-width: 1px;
+}
+.searchlogo{
+  margin-top: 2px;
+  width: 20px;
+  height: 20px;
+}
+.channelpic{
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 17px;
+}

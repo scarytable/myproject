@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat</title>
+    <style>
+      .parent{
+        display: flex;
+        height: 60px;
+        width: 300px;
+      }
+      .parent2{
+        display: flex;
+        margin-top: 100px;
+      }
+      .leftsection{
+        display: flex;
+        align-items: center;
+      }
+      .insideleftsection2{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="leftsection" style="background-color: lightpink; width: 100px; height: 60px;">
+        <span style="margin-left: 30px; background-color: black; color: white;">
+          item1
+        </span>
+      </div>
+      <div style="background-color: lightblue; width: 200px; height: 60px;"></div>
+    </div>
+
+    <div class="parent2">
+      <div style="background-color: lightpink; width: 100px; height: 60px;"></div>
+      <div style="background-color: lightblue; width: 200px; height: 60px;">
+        <span>row1</span>
+        <div class="insideleftsection2">
+      <span style="background-color: black; color: white;">row2</span>
+      <span style="background-color: black; color: white;">row2</span>
+    </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!Doctype html>
+<html>
+  <head>
+    <title>Cat</title>
+    <style>
+      .divpractice{
+        position: fixed;
+        background-color: black;
+        color: white;
+        top: 0;
+        right: 0px;
+        left: 0px;
+        height: 60px;
+        z-index: 100;
+      }
+      .sidebar{
+        position: fixed;
+        background-color: green;
+        color: white;
+        width: 100px;
+        left: 0px;
+        bottom: 0px;
+        top: 60px;
+      }
+      .absolute{
+        position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 70px;
+      }
+    </style>
+  </head>
+  <body style="height: 1000px; padding-top: 60px; padding-left: 100px;">
+      <div class="divpractice">header</div>
+      <div class="sidebar">sidebar
+        <div class=absolute>
+          absolute
+        </div>
+      </div>
+
+    <div class=absolute>
+      absolute
+    </div>
+
+      <div style="background-color: lightblue;position: relative; width: 200px; height: 200px; margin-bottom: 20px;">big div1
+        <div class=absolute>
+          absolute
+        </div>
+      </div>
+      <div style="background-color: lightcoral; width: 200px; height: 200px;">big div2</div>
+  </body>
+</html>

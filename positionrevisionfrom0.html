@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat</title>
+    <style>
+      .header{
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: red;
+      }
+      .leftsection{
+        background-color: lightblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .rightsection{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-shrink: 0;
+      }
+      .middlesection{
+        flex: 1;
+        margin-left: 70px;
+        margin-right: 35px;
+        max-width: 500px;
+        display: flex;
+        align-items: center;
+      }
+      .leftsectimage1{
+        border-radius: 60px;
+        height: 40px;
+        margin-left: 20px;
+      }
+      .leftsectimage2{
+        border-radius: 60px;
+        height: 40px;
+        margin-left: 25px;
+      }
+      .search-button{
+        width: 60px;
+        height: 40px;
+      }
+      .searchbar{
+        flex: 1;
+        height: 36px;
+        font-size: 14px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(192,192,192);
+        box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+        width: 0;
+      }
+      .microphone{
+        width: 40px;
+        height: 40px;
+      }
+      .searchbar::placeholder{
+        font-family: arial;
+        font-size: 14px;
+        padding-left: 4px;
+      }
+      .leftheader{
+        position: fixed;
+        background-color: green;
+        left: 0;
+        bottom: 0;
+        top: 75px;
+        width: 125px;
+        flex-direction: column;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; height: 2000px; padding-left: 150px; padding-top: 75px;">
+    <div class="header">
+    <div class="leftsection">
+      <img class="leftsectimage1" src="intro-to-html/channels4_profile.jpg">
+      <img class="leftsectimage2" src="intro-to-html/channels4_profile.jpg">
+    </div>
+
+    <div class="middlesection">
+      <input class="searchbar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-icon" style="height: 35px;" src="youtube-icons/searchlogo.jpg">
+      </button>
+      <button class="microphone">
+        <img src="youtube-icons/microphone.png">
+      </button>
+    </div>
+
+    <div class="rightsection">
+      <div>
+        <img style="margin-left: 10px;" class="leftsectimage1" src="intro-to-html/channels4_profile.jpg">
+        <img class="leftsectimage1" src="intro-to-html/channels4_profile.jpg">
+        <img class="leftsectimage1" src="intro-to-html/channels4_profile.jpg">
+        <img class="leftsectimage1" src="intro-to-html/channels4_profile.jpg">
+      </div>
+    </div>
+    </div>
+
+    <div style="background-color: grey; width: 150px; height: 150px; margin-top: 20px;">
+      div1
+    </div>
+    <div style="background-color: yellow; width: 150px; height: 150px; position: relative;">
+      <div style="position: absolute; background-color: red;">absolute</div>
+    </div>
+
+    <div class="leftheader">
+      <div style="position: absolute; background-color: red;">absolute</div>
+      <div style="margin-bottom: 15px;">div6</div>
+    </div>
+
+  </body>
+</html>
